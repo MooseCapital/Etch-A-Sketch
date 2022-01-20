@@ -1,0 +1,96 @@
+body {
+    background-color: #333;
+    color: #ededed;
+    font-family: "Itim" , cursive;
+    
+}
+
+/* HEADER */
+
+.header {
+    padding: 50px 0;
+    
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 80px;
+    margin: auto;
+    
+    
+  }
+  html {
+    /* footer support */
+    position: relative;
+    min-height: 100%;
+  }
+
+  button {
+    width: 100%;
+    color: #333;
+    font-size: 20px;
+    font-family: inherit;
+    border-color: #333;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    transition: transform 0.1s ease-in-out;
+  }
+  .main {
+      display:flex;
+      align-items: center;
+      justify-content:flex-start;
+      gap: 100px;
+      max-width: 1100px;
+      margin: 0 auto;
+  }
+  .settings {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    gap: 30px;
+    width: 200px;
+
+  }
+
+  .active {
+    background-color: #ededed;
+    box-shadow:  0px 0px 40px #e304eb;
+    
+    
+  }
+  
+  button:hover{
+    transform: scale(1.01);
+    box-shadow:  0px 0px 40px #e304eb;
+    
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      gap: 10px;
+      width: 100%;
+      font-size: 20px;
+  }
+
+  .grid {
+    display: inline-grid;
+    grid-gap: 0px;
+    
+    background-color: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    grid-template-columns: repeat(30, auto);
+}
+.grid > div {
+    height: 15px;
+    width: 15px;
+    
+    
+  }
+  
